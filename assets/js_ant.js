@@ -143,6 +143,7 @@ function move(context, state, dir, posX, posY, colors, moves) {
 			6. Array of Colors
 			7. Amount of moves
 	*/
+	
 	drawSquare(context, posX, posY, colors[++state]);
 	state--;
 

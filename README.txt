@@ -1,7 +1,7 @@
 CPSC 335-05
 PROJECT 1 - CELLA ANT #12
 
-Joshua Ungheanu
+Joshua Ungheanu, Raul Garcia  
 TEAM: JRP
 
 INTRO:
