@@ -1,14 +1,32 @@
-When your project is complete, you should provide a README.txt text file. Be clear in your instruction on how to build and use the project by providing instructions a novice programmer would understand. If there are any external dependencies for building, the README must also list them and how to find and incorporate them. Usage should include an example invocation. A README would cover the following:
+CPSC 335-05
+PROJECT 1 - CELLA ANT #12
 
-• Class number
-• Project number and name
-• Team name and members
-• Intro (including the algorithm used)
-• Contents: Files in the .zip submission
+Joshua Ungheanu
+TEAM: JRP
 
-Academic Rules
+INTRO:
+	For this project, we had to use the cella ant #12 algorithm and create a display using 		Javascript on an HTML webpage. Cella ant #12 function is determined by the number 1100 in
+	binary--where 1 means turn left, and 0 means turn right. For visuals, each bit is assigned a 	color: 0 = black, 1 = red, 2 = yellow, 3 = blue. The algorithm is displayed using these 	colors. The Cella Ant #12 will move 1000 moves before ending, thus letting use see how the 	algorithm works.
 
-• External Requirements (None?)
-• Setup and Installation (if any)
-• Sample invocation
-• Features (both included and missing) • Bugs (if any)
+CONTENTS:
+	CellAnt.html
+	README.txt
+	assets {
+		js_ants.js
+		style.css
+	}
+
+EXTERNAL REQUIREMENTS:
+	None
+
+SETUP AND INSTALLATION:
+	Atom - for editing HTML, CSS & JS files.
+
+FEATURES:
+	- The colors of the grid box changes depending on what move the Cella Ant makes.
+	- It also moves depending on the color of the previous square.
+	- You can customize the position of the Cella Ant and the amount of moves it can make.
+	- You can customize the speed of each move by 1/10 second to 1/1000 of a second.
+
+BUGS:
+	None

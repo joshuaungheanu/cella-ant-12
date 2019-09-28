@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Cella ANT Project</title>
+		<link rel="stylesheet" href="assets/style.css"/>
+	</head>
+
+	<body>
+		<h1> Cella Ant #12 </h1>
+		<h4>Time-stamp: <2019-09-28 Group JRP></h4>
+
+		<canvas id="grid" width="738" height="738"></canvas>
+	</body>
+
+	<script src="assets/js_ant.js"></script>
+	<script>
+		var canvas = document.getElementById( "grid" );
+		var context = canvas.getContext( "2d" );
+		var colors = ['black', 'red', 'yellow', 'blue']; // Colors
+		var state = 0; // Initial State
+		var x = 369;
+		var y = 369; // Ants starting point
+		var moves = 1000; // Number of moves
+		var direction = 3; // Directions
+
+		// Ant starting location and direction its facing
+		draw_triangle_W(context, x, y);
+
+		// Grid size and outline color
+		drawGrid(context, 41, 41, 'white');
+
+		// Cella Algorithm that moves the Ant
+		/*	Passing the parameters
+				1. Canvas
+				2. Passing the current state
+				3. Direction of the ant
+				4. X Position
+				5. Y Position
+				6. Array of Colors
+				7. Amount of moves
+		*/
+		move(context, state, direction, x, y, colors, moves);
+	</script>
+
+</html>
