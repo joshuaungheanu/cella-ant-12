@@ -5,8 +5,7 @@ Joshua Ungheanu
 TEAM: JRP
 
 INTRO:
-	For this project, we had to use the cella ant #12 algorithm and create a display using 		Javascript on an HTML webpage. Cella ant #12 function is determined by the number 1100 in
-	binary--where 1 means turn left, and 0 means turn right. For visuals, each bit is assigned a 	color: 0 = black, 1 = red, 2 = yellow, 3 = blue. The algorithm is displayed using these 	colors. The Cella Ant #12 will move 1000 moves before ending, thus letting use see how the 	algorithm works.
+	For this project, we had to use the cella ant #12 algorithm and create a display using Javascript on an HTML webpage. 	      Cella ant #12 function is determined by the number 1100 inbinary--where 1 means turn left, and 0 means turn right. For         visuals, each bit is assigned a color: 0 = black, 1 = red, 2 = yellow, 3 = blue. The algorithm is displayed using       	   these colors. The Cella Ant #12 will move 1000 moves before ending, thus letting use see how the algorithm works.
 
 CONTENTS:
 	CellAnt.html
