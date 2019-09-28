@@ -134,6 +134,15 @@ function move(context, state, dir, posX, posY, colors, moves) {
 	}
 
 	// Draws the colored square on the board and so on.
+	/*	Passing the parameters
+			1. Canvas
+			2. Passing the current state
+			3. Direction of the ant
+			4. X Position
+			5. Y Position
+			6. Array of Colors
+			7. Amount of moves
+	*/
 	drawSquare(context, posX, posY, colors[++state]);
 	state--;
 
